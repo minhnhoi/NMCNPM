@@ -1,0 +1,12 @@
+HUONG DAN UP RENDER
+
+1. Giai nen ZIP.
+2. Up tat ca file len GitHub.
+3. Dam bao index.html nam ngay ngoai cung repo.
+4. Render -> New -> Static Site.
+5. Cau hinh:
+   Build Command: bo trong
+   Publish Directory: .
+6. Bam Deploy.
+
+Khong can npm install, khong can npm run build, khong can npm start.

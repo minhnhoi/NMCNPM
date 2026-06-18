@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aethelgard - The Swift Blade: game phiêu lưu pixel 2D cho Windows. Tải trực tiếp bản PC mới nhất." />
+    <meta name="theme-color" content="#090711" />
+    <title>Aethelgard - The Swift Blade</title>
+    <link rel="icon" type="image/png" href="logo/aethelgard-full.png" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <div class="world" aria-hidden="true">
+      <img class="world-bg" src="bg/windrise.png" alt="" />
+      <img class="cloud cloud-1" src="clouds/cloud1.png" alt="" />
+      <img class="cloud cloud-2" src="clouds/cloud2.png" alt="" />
+      <img class="cloud cloud-3" src="clouds/cloud3.png" alt="" />
+      <img class="cloud cloud-4" src="clouds/cloud4.png" alt="" />
+      <span class="orb orb-pink"></span>
+      <span class="orb orb-mint"></span>
+      <span class="orb orb-gold"></span>
+    </div>
+
+    <header class="site-header" id="siteHeader">
+      <a class="brand" href="#home" aria-label="Aethelgard trang chủ">
+        <img src="logo/aethelgard-full.png" alt="Aethelgard" />
+        <span>
+          <strong>Aethelgard</strong>
+          <small>The Swift Blade</small>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Mở menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" aria-label="Điều hướng chính">
+        <a class="nav-link is-active" href="#home">Trang chủ</a>
+        <a class="nav-link" href="#features">Điểm nổi bật</a>
+        <a class="nav-link" href="#download">Tải xuống</a>
+      </nav>
+
+      <a class="nav-cta" href="#download">Tải game</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-shell scroll-section">
+        <div class="hero-copy reveal">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            Bản PC v1.0.0 đã sẵn sàng
+          </div>
+
+          <h1>
+            Khởi hành cùng
+            <span>Swift Blade</span>
+            trong vùng đất Aethelgard.
+          </h1>
+
+          <p class="lead">
+            Một chuyến phiêu lưu pixel 2D đầy tốc độ: băng qua rừng cổ, né bẫy, đối đầu quái vật
+            và khám phá những tàn tích đang ngủ quên sau làn mây Aethelgard.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#download">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42l2.3 2.3V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>
+              Tải game ngay
+            </a>
+            <a class="btn btn-glass" href="#preview">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14Z"/></svg>
+              Xem giới thiệu
+            </a>
+          </div>
+
+          <div class="stat-row" aria-label="Thông tin nhanh">
+            <div class="stat-card"><strong>2D</strong><span>Pixel adventure</span></div>
+            <div class="stat-card"><strong>PC</strong><span>Windows</span></div>
+            <div class="stat-card"><strong>54.4 MB</strong><span>File ZIP</span></div>
+          </div>
+        </div>
+
+        <div class="hero-showcase reveal delay-1" id="preview">
+          <div class="showcase-glow"></div>
+          <div class="game-window">
+            <div class="window-top">
+              <span></span><span></span><span></span>
+              <p>Aethelgard.exe</p>
+            </div>
+            <div class="window-scene">
+              <img class="scene-preview" src="game/backgrounds/game-preview.png" alt="Khung cảnh trong game Aethelgard" />
+              <img class="hero-character" src="game/player/hero-chibi.png" alt="Nhân vật Swift Blade" />
+              <div class="battle-card card-left">
+                <strong>⚔ Swift Strike</strong>
+                <small>Ra đòn nhanh, né gọn</small>
+              </div>
+              <div class="battle-card card-right">
+                <strong>✦ Ancient Forest</strong>
+                <small>Rừng cổ mở lối</small>
+              </div>
+              <div class="caption-card">
+                <strong>Swift Blade đã sẵn sàng</strong>
+                <span>Khám phá bản đồ, vượt địa hình và chinh phục từng màn chơi.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features section-shell scroll-section">
+        <div class="section-heading reveal">
+          <span class="mini-label">Trải nghiệm chính</span>
+          <h2>Lối chơi nhanh, thế giới sáng, cảm giác phiêu lưu rõ nét.</h2>
+          <p>
+            Aethelgard được thiết kế để người chơi vào game nhanh, điều khiển mượt và luôn có mục tiêu mới để vượt qua trong từng màn.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon">⚔️</div>
+            <h3>Chiến đấu tốc độ</h3>
+            <p>Lướt qua kẻ địch, né đòn và tung combo dứt khoát trong những pha xử lý ngắn mà đã tay.</p>
+          </article>
+          <article class="feature-card reveal delay-1">
+            <div class="feature-icon">🌲</div>
+            <h3>Khám phá rừng cổ</h3>
+            <p>Băng qua những vùng đất phủ mây, hang tối và tàn tích cổ được dựng bằng phong cách pixel fantasy.</p>
+          </article>
+          <article class="feature-card reveal delay-2">
+            <div class="feature-icon">🎮</div>
+            <h3>Dễ chơi trên PC</h3>
+            <p>Điều khiển gọn, phản hồi nhanh, phù hợp để chơi thử ngay mà không cần launcher phức tạp.</p>
+          </article>
+          <article class="feature-card reveal delay-3">
+            <div class="feature-icon">✨</div>
+            <h3>Nhẹ và trực tiếp</h3>
+            <p>Tải file ZIP, giải nén và mở game. Không đăng nhập, không cài thêm bước rườm rà.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="story section-shell" aria-labelledby="story-title">
+        <div class="story-card reveal">
+          <div class="story-image">
+            <img src="game/backgrounds/menu-bg.png" alt="Màn hình menu Aethelgard" />
+          </div>
+          <div class="story-copy">
+            <span class="mini-label">Vùng đất Aethelgard</span>
+            <h2 id="story-title">Một thanh kiếm, một lời gọi, một hành trình qua những tàn tích cổ.</h2>
+            <p>
+              Khi những cánh rừng bắt đầu thức giấc, Swift Blade phải tiến sâu vào Aethelgard để tìm lại dấu vết của sức mạnh cổ xưa. Mỗi bước đi là một thử thách mới: địa hình hiểm, bẫy bất ngờ và những kẻ canh giữ không dễ bị khuất phục.
+            </p>
+            <div class="tag-list" aria-label="Thẻ game">
+              <span>Pixel Art</span>
+              <span>Adventure</span>
+              <span>Platformer</span>
+              <span>Windows PC</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="download section-shell scroll-section">
+        <div class="download-panel reveal">
+          <div class="download-copy">
+            <span class="mini-label">Bản PC mới nhất</span>
+            <h2>Tải Aethelgard cho Windows</h2>
+            <p>
+              Nhận bản game dưới dạng file ZIP. Tải xong chỉ cần giải nén, mở thư mục game và bắt đầu hành trình của Swift Blade.
+            </p>
+
+            <div class="download-info">
+              <div><span>Tên file</span><strong>Aethelgard-The-Swift-Blade.zip</strong></div>
+              <div><span>Dung lượng</span><strong>54.4 MB</strong></div>
+              <div><span>Phiên bản</span><strong>1.0.0</strong></div>
+              <div><span>Nền tảng</span><strong>Windows PC</strong></div>
+            </div>
+
+            <a class="btn btn-primary btn-download" href="downloads/Aethelgard-The-Swift-Blade.zip" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42l2.3 2.3V4a1 1 0 0 1 1-1Zm-7 14a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>
+              Tải Aethelgard ngay
+            </a>
+          </div>
+
+          <div class="download-visual" aria-hidden="true">
+            <img src="game/player/hero-chibi.png" alt="" />
+          </div>
+        </div>
+
+        <div class="guide-grid reveal delay-1">
+          <article><span>01</span><h3>Tải file ZIP</h3><p>Nhấn nút tải và chờ trình duyệt lưu file về máy.</p></article>
+          <article><span>02</span><h3>Giải nén</h3><p>Chuột phải vào file ZIP, chọn giải nén vào thư mục bạn muốn.</p></article>
+          <article><span>03</span><h3>Mở game</h3><p>Vào thư mục vừa giải nén, chạy file game và bắt đầu chơi.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img src="logo/aethelgard-full.png" alt="Aethelgard" />
+        <div>
+          <strong>Aethelgard — The Swift Blade</strong>
+          <p>Phiêu lưu pixel 2D dành cho người chơi yêu thích tốc độ, khám phá và những màn vượt ải gọn mà cuốn.</p>
+        </div>
+      </div>
+      <a href="#home">Lên đầu trang ↑</a>
+      <span>© <span id="year"></span> Aethelgard</span>
+    </footer>
+
+    <script src="assets/main.js" defer></script>
+  </body>
+</html>
